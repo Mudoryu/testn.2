@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>links</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+		.link{
+		width: 50px;
+		font-size: 25px;
+		height: 25px;
+		font-weight: 200px;
+		border:dotted red 2px;
+		text-align: center;
+		
+		background-color: bisque;
+		font-family: 'Mynerve', cursive;
+
+	}
+
+	.link:hover{
+		color: blue;
+		background-color: darkred;
+		border: dotted brown;
+		text-transform: uppercase;
+		text-shadow: 0 0 5px violet;
+
+	}
+	.b2 {
+  --c:  #229091; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.b2:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+.b2:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+.b2 {
+  font-family: system-ui, sans-serif;
+  font-size: 3.5rem;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+
+}
+</style>	
+</head>
+<body>
+<a href="https://uk.wikipedia.org/wiki/HTML" target="_blank"><img width="150px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png"></img>Wiki HTML</a>
+<a href="https://uk.wikipedia.org/wiki/HTML"></a>
+<a href="https://uk.wikipedia.org/wiki/Головна_сторінка" target="_blank"><button class="link">wiki</button></a>
+
+<a href="https://uk.wikipedia.org/wiki/Головна_сторінка" target="_blank"><button class="b2" style="--c:#E95A49" target="_blank">Wiki</button></a>
+<a href="gradient.html" target="_blank"><button class="b2" style="--c:#E95A49" target="_blank">Градієнт</button></a>
+<a href="bigtext.html" target="_blank"><button class="b2" style="--c:#E95A49" target="_blank">Великий текст</button></a>
+
+
+</body>
+</html>

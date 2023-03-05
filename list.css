@@ -1,0 +1,27 @@
+body{
+	background-color: darkmagenta;
+}
+p{
+	font-size: 50px;
+	color: lightcyan;
+	background-color: darkred ;
+}
+ul,ol,dl{
+	color: white;
+	font-size: 30px;
+	margin-left: 230px;
+		
+}
+ol{
+	margin-left: 100px;
+}
+ul li::marker{
+	color: cornflowerblue;
+	font-size: 1.25em;
+}
+.m1 li{
+	list-style-type: '\1F439 ';
+}
+.m2 li{
+	list-style-type: '\1F5F9 ';	
+}

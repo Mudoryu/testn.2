@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Shantell+Sans&display=swap');
+body{
+	background-color: beige;
+}
+p{
+	font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 1px black;
+
+}
+ul li::marker{
+	color: darkblue;
+	font-size: 30px;
+}
+ul li{
+	font-size: 20px;
+	font-family:'Shantell Sans', cursive;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-size: 40px ;
+}
+h2{
+	font-size: 30px;
+	
+}
+h3{
+	font-size: 30px;
+	color: rgb(30,30,30);
+}
+span{
+	font-size: 26px;
+	text-decoration: underline;
+}
+figure{
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 1px black;
+}

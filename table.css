@@ -1,0 +1,38 @@
+body{
+	background-color: white;
+}
+p{
+	font-family: cursive;
+	font-size: 30px;
+	background: repeating-radial-gradient(purple, violet, black);
+}
+table{
+	border: double 5px skyblue;
+	width: 75%;
+	border-collapse: collapse;
+	box-shadow: 5px -5px black;	
+}
+th,td{
+	border: solid 2px blueviolet;
+	width: 25%;
+	height: 1cm;
+	font-size: 24px	;
+	font-family: cursive;
+	text-align: center;
+}
+td:hover{
+	background-color: whitesmoke;
+	color: darkblue;
+	font-weight: 700;
+	font-size: 2em;
+}
+tr:nth-child(odd){
+	background-color: palevioletred;
+}
+caption{
+	font-family: cursive;
+	font-size: 30px;
+	background: skyblue;
+	text-shadow: 2px -2px purple;
+	box-shadow: 5px -5px black;
+}

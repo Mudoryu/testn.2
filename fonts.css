@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&family=DotGothic16&family=Marck+Script&display=swap');
+
+body{
+	background-color: darkgray;
+}
+.first{
+    background: linear-gradient(violet, purple);
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+
+}
+.second{
+    background: linear-gradient(violet, purple);
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+.third{
+    background: linear-gradient(violet, purple);
+    font-size: 30px;
+    font-family: 'Marck Script', cursive;
+}
+.fourth{
+    background: linear-gradient(violet, purple);
+    color: whitesmoke;
+	font-style: italic;
+	font-size: 1cm;
+	font-weight: 600;
+	font-variant: small-caps;
+	text-shadow: 5px 5px black;
+}
+.big{
+	font-size: 1.75em;
+	color: darkred;
+}
+.five{
+	font-family: 'DotGothic16', sans-serif;
+	font-size: 1cm;
+	color: orange;
+	background: radial-gradient(violet, purple);
+	text-shadow: 5px -2px red;
+}
+.six{
+	color: whitesmoke;
+	font-family: 'Marck Script', cursive;
+	background: radial-gradient(violet,purple);
+	font-size: 50px;
+	text-shadow: 1px 1px 2px black;
+	text-decoration: underline;
+	text-decoration-color:silver;
+	text-decoration-style: wavy;
+	text-underline-position:under;
+}

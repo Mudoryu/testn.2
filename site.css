@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant+Infant:ital,wght@1,300&family=Lobster&display=swap');
+*{
+	margin: 0;
+}
+body{
+  background-color: whitesmoke;
+}
+header{
+	background-color: rgb(115, 70, 150);
+  color: black ;
+  text-align: center;
+  height: 250px;
+
+}
+p{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+h1{
+	text-align: center;
+  font-family: 'Cormorant Infant', serif;
+  color: black;
+}
+#menu{
+	width: 15%;
+	float: left;
+}
+#content{
+	width: 85%;
+	float: left;
+}
+footer{
+	height: 200px;
+	
+	clear:both	;
+}
+h2{
+	text-align: center;
+  font-family: 'Bad Script', cursive;
+  color: black;
+  
+
+}
+.button1{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 25px;
+ 
+
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+.video{
+  
+}
+.bgvideo{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgvideo video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+.textvideo{
+z-index: 2;
+color: black;
+}
+a{
+  text-decoration: none;
+}

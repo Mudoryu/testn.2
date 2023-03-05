@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body{
+	background-color: darkgray;
+}
+p.first{
+	color: whitesmoke;
+	font-size: 1cm;
+	background: linear-gradient(violet, purple);
+	font-family: "Lucidia Console", Courier, monospace;
+}
+.second{
+	color: white;
+	font-size: 1cm;
+	background: linear-gradient(violet, purple);
+	font-family: 'Pacifico', cursive;
+}
+.third{
+	color: white;
+	font-size: 1cm;
+	background: linear-gradient(violet, purple);
+	font-family: 'Amatic SC', cursive;
+
+}
