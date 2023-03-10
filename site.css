@@ -76,7 +76,7 @@ h2{
 @media (min-width: 768px) {
   .button-54 {
     padding: 0.25em 0.75em;
-  }
+  } 
 }
 .video{
   
@@ -104,4 +104,8 @@ color: black;
 }
 a{
   text-decoration: none;
+  color: rgb(170, 0, 70);
+}
+.icons{
+  text-align: center;
 }
